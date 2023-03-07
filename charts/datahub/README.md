@@ -13,7 +13,7 @@ helm install datahub datahub/datahub
 ```
 If the default configuration is not applicable, you can update the values listed below in a `values.yaml` file and run
 ```
-helm install datahub datahub/datahub --values <<path-to-values-file>>
+helm -n datahub install datahub datahub/datahub --values values.yaml
 ```
 
 ## Chart Values
